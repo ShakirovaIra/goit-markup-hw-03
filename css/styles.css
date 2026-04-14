@@ -213,6 +213,8 @@ body {
 }
 
 .team-list {
+  display: flex;
+  gap: 24px;  
 }
 
 .team-item {
@@ -226,6 +228,10 @@ body {
 .team-image {
 }
 
+.team-caption {
+  padding: 32px 16px;
+}
+
 .team-name {
   font-weight: 500;
   font-size: 20px;
@@ -233,6 +239,7 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .team-position {
