@@ -292,6 +292,11 @@ body {
   padding-block: 100px;
 }
 
+.footer-info {
+  width: 264px;
+  height: 112px;
+}
+
 .footer-logo {
   display: block;
   font-weight: 700;
