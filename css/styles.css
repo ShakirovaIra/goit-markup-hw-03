@@ -27,7 +27,7 @@ body {
 .container {
   /* max-width: 1166px;
   width: 100%; */
-  width: 1158px;
+  max-width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
@@ -49,6 +49,12 @@ body {
     padding-block: 24px;
 }
 
+.header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .header-logo {
   font-weight: 700;
   font-size: 18px;
@@ -57,6 +63,7 @@ body {
   text-transform: uppercase;
   color: #2e2f42;
   font-family: "Raleway", sans-serif;
+  margin-right: 76px;
 }
 
 .header-logo-web {
@@ -64,12 +71,16 @@ body {
 }
 
 .header-navigation {
+  width: 100%;
 }
 
 .header-list {
+  display: flex;
+  gap: 40px;
 }
 
 .header-item {
+  display: flex;
 }
 
 .header-link {
@@ -86,6 +97,15 @@ body {
 
 .header-link:hover {
   color: #404bbf;
+}
+
+.header-address ul {
+  display: flex;
+  gap: 40px;
+}
+
+.header-address ul li {
+  white-space: nowrap;
 }
 
 .address-link {
