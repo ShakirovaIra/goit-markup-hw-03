@@ -1,5 +1,17 @@
 ul {
   list-style-type: none;
+  margin-block: 0;
+  padding-left: 0;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-block: 0;
 }
 
 a {
@@ -12,6 +24,17 @@ body {
   color: #434455;
 }
 
+.container {
+  /* max-width: 1166px;
+  width: 100%; */
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  /* padding-inline: 15px;
+  margin-inline: auto; */
+}
+
 .section-title {
   font-weight: 700;
   font-size: 36px;
@@ -19,9 +42,11 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+    margin-bottom: 72px;
 }
 
 .header {
+    padding-block: 24px;
 }
 
 .header-logo {
@@ -90,6 +115,10 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
+  max-width: 496px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 48px;
 }
 
 .hero-button {
@@ -113,6 +142,7 @@ body {
 }
 
 .features {
+  padding-block: 120px;
 }
 
 .features-list {
@@ -127,6 +157,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+   margin-bottom: 8px;
 }
 
 .feature-item-text {
@@ -138,9 +169,11 @@ body {
 
 .team {
   background: #f4f4fd;
+  padding-block: 120px;
 }
 
 .team-title {
+
 }
 
 .team-list {
@@ -174,6 +207,10 @@ body {
   color: #434455;
 }
 
+.portfolio {
+
+  padding-block: 120px;
+}
 .portfolio-list {
 }
 
@@ -197,9 +234,11 @@ body {
 
 .footer {
   background: #2e2f42;
+  padding-block: 100px;
 }
 
 .footer-logo {
+      display: block;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.16667;
@@ -207,6 +246,7 @@ body {
   text-transform: uppercase;
   color: #f4f4fd;
   font-family: "Raleway", sans-serif;
+  margin-bottom: 16px;
 }
 
 .footer-logo-web {
