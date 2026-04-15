@@ -22,7 +22,7 @@
   </head>
   <body>
     <header class="header">
-      <div class="container">
+      <div class="container header-container">
         <a class="header-logo" href="./index.html">
           <span class="header-logo-web">Web</span>Studio
         </a>
@@ -40,13 +40,13 @@
           </ul>
         </nav>
         <address class="header-address">
-          <ul>
-            <li>
+          <ul class="header-address-list">
+            <li class="header-address-item">
               <a class="address-link" href="mailto:info@devstudio.com"
                 >info@devstudio.com</a
               >
             </li>
-            <li>
+            <li class="header-address-item">
               <a class="address-link" href="tel:+110001111111"
                 >+11 (000) 111-11-11</a
               >
@@ -58,8 +58,10 @@
     <main>
       <section class="hero">
         <div class="container">
-          <h1 class="hero-title">Effective Solutions for Your Business</h1>
-          <button class="hero-button" type="button">Order Service</button>
+          <div class="hero-container-flex">
+            <h1 class="hero-title">Effective Solutions for Your Business</h1>
+            <button class="hero-button" type="button">Order Service</button>
+          </div>
         </div>
       </section>
       <section class="features">
@@ -163,6 +165,7 @@
           <ul class="portfolio-list">
             <li class="portfolio-item">
               <img
+                class="portfolio-image"
                 src="./images/BankingApp.jpg"
                 width="360"
                 height="300"
@@ -175,6 +178,7 @@
             </li>
             <li class="portfolio-item">
               <img
+                class="portfolio-image"
                 src="./images/CashlessPayment.jpg"
                 width="360"
                 height="300"
@@ -187,6 +191,7 @@
             </li>
             <li class="portfolio-item">
               <img
+                class="portfolio-image"
                 src="./images/MeditationApp.jpg"
                 width="360"
                 height="300"
@@ -199,6 +204,7 @@
             </li>
             <li class="portfolio-item">
               <img
+                class="portfolio-image"
                 src="./images/TaxiService.jpg"
                 width="360"
                 height="300"
@@ -211,6 +217,7 @@
             </li>
             <li class="portfolio-item">
               <img
+                class="portfolio-image"
                 src="./images/ScreenIllustrations.jpg"
                 width="360"
                 height="300"
@@ -223,6 +230,7 @@
             </li>
             <li class="portfolio-item">
               <img
+                class="portfolio-image"
                 src="./images/OnlineCourses.jpg"
                 width="360"
                 height="300"

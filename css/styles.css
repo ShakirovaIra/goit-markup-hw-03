@@ -49,7 +49,7 @@ body {
   border-bottom: 1px solid #e7e9fc;
 }
 
-.header .container {
+.header-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -101,12 +101,12 @@ body {
   color: #404bbf;
 }
 
-.header-address ul {
+.header-address-list {
   display: flex;
   gap: 40px;
 }
 
-.header-address ul li {
+.header-address-item {
   white-space: nowrap;
 }
 
@@ -134,7 +134,7 @@ body {
   padding-bottom: 188px;
 }
 
-.hero .container {
+.hero-container-flex {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -236,6 +236,7 @@ body {
 }
 
 .team-image {
+  display: block;
 }
 
 .team-caption {
@@ -271,6 +272,10 @@ body {
 }
 
 .portfolio-item {
+}
+
+.portfolio-image {
+  display: block;
 }
 
 .portfolio-caption {
