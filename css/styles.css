@@ -127,7 +127,11 @@ body {
 
 .hero {
   background: #2e2f42;
-  height: 600px;
+  padding-top: 188px;
+  padding-bottom: 188px;
+}
+
+.hero .container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -154,6 +158,7 @@ body {
   background: #4d5ae5;
   color: #fff;
   cursor: pointer;
+  border: none
 }
 
 .hero-button:hover {
